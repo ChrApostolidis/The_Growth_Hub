@@ -61,14 +61,12 @@ There are two separate servers for the backend and the API.
 
 Start the backend API server:
 ```
-Copy code
-node apiServer.js
+node index.js
 ```
 This starts the API at http://localhost:4000.
 
 Start the backend server:
 ```
-Copy code
 node server.js
 ```
 This starts the backend application at http://localhost:3000.
