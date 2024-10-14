@@ -61,7 +61,6 @@ There are two separate servers for the backend and the API.
 
 Start the backend API server:
 ```
-bash
 Copy code
 node apiServer.js
 ```
@@ -69,7 +68,6 @@ This starts the API at http://localhost:4000.
 
 Start the backend server:
 ```
-bash
 Copy code
 node server.js
 ```
