@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# npm cache and lock files
+package-lock.json
+yarn.lock
+
+# Temporary files
+tmp/
+temp/
+
+# EJS files (if you want to ignore compiled views; adjust this if needed)
+public/views/
+
+# Others
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
