@@ -17,7 +17,7 @@ The project is divided into two main parts:
 * Provides CRUD operations for blog posts
 * Custom API built by me using Node.js and Express
   
-2. Backend (Makes API requests port:3000)
+2. Frontend (Makes API requests port:3000)
 
 * Displays blog posts to users
 * Offers UI for creating, editing, and deleting posts
@@ -32,8 +32,8 @@ The API is custom-built using Node.js and Express and handles all operations rel
 * PATCH /posts/:id – Update an existing post
 * DELETE /posts/:id – Delete a post
   
-### Backend
-The backend uses EJS templates to render the blog posts. Axios is used to make API requests to the backend server. The application has the following routes:
+### Frontend
+The frontend uses EJS templates to render the blog posts. Axios is used to make API requests to the backend server. The application has the following routes:
 
 * / – Main page to view all posts
 * /new – Create a new post
@@ -57,7 +57,7 @@ Install Dependencies
 npm install
 ```
 Run the Application
-There are two separate servers for the backend and the API.
+There are two separate servers for the frontend and the API.
 
 Start the backend API server:
 ```
@@ -65,11 +65,11 @@ node index.js
 ```
 This starts the API at http://localhost:4000.
 
-Start the backend server:
+Start the frontend server:
 ```
 node server.js
 ```
-This starts the backend application at http://localhost:3000.
+This starts the frontend application at http://localhost:3000.
 Make sure both servers run at the same time for the website to work.
 
 #### Testing the Application
